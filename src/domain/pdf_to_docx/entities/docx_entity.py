@@ -14,5 +14,5 @@ class DocxEntity:
         if last != 'docx':
             string.pop().replace("pdf", "docx")
             string.reverse()
-            filename = string
+            filename = str(string)
         return filename
