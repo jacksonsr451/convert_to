@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "convert-to"
+version = "0.1.0"
+description = ""
+authors = ["jacksonsr45 <jackson.severino.rocha@escola.pr.gov.br>"]
+readme = "README.md"
+packages = [{include = "convert_to"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pdf2docx = "^0.5.6"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.10.1"
+blue = "^0.9.1"
+coverage = "^6.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
